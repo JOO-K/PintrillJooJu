@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>JooJu Pintrill</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+        <link type="text/css" rel="stylesheet" href="style.css">
+
+        <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600&display=swap" rel="stylesheet">  
+        <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
+
+        <link rel="icon" href="images/holiday%20logo.png">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    </head>
+
+    <body>
+        
+        <div class="pintrilllogo">
+            <img src="images/pintrilllogo.png">
+        </div>
+        
+        <div class="buytext">
+            <h3>Available Now at <a href="https://www.pintrill.com/">Pintrill.com</a></h3>
+        </div>
+        
+       
+
+        <div class="windowcontainer">
+            <!-- card containers -->
+
+            <div class="container">
+                <div class="box">
+                    <div class="imgBx">
+                        <a href="Object_01.html" target="_self">
+                            <img class="static" src="images/linuspinandback_01.png">
+                        </a>
+                    </div>
+                    <div class="contentBx">
+                        <a href="https://www.pintrill.com/collections/peanuts/products/peanuts-originals-linus-pin">
+                            <img src="images/linuspin_01.png">
+                            <h2 id="one">PEANUTS ORIGINALS - LINUS PIN<br>Buy Now at Pintrill.com</h2>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="box">
+                    <div class="imgBx">
+                        <a href="Object_01.html" target="_self">
+                            <img class="static" src="images/worldpinandback_01.png">
+                        </a>
+                    </div>
+                    <div class="contentBx">
+                       <a href="https://www.pintrill.com/collections/peanuts/products/peanuts-originals-linus-pin">
+                    
+                        <img src="images/worldpin_01.png">
+                        <h2 id="two">PEANUTS WORLDWIDE - CHARLIE BROWN YELLOW SIGN PIN<br>Buy Now at Pintrill.com</h2>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="box">
+                    <div class="imgBx">
+                        <a href="Object_01.html" target="_self">
+                            <img class="static" src="images/snoopypinandback_01.png">
+                            <!--                            <img class="active" src="images/background_01.png">-->
+                        </a>
+                    </div>
+                    <div class="contentBx">
+                       <a href="https://www.pintrill.com/collections/peanuts/products/peanuts-originals-linus-pin">
+                        <img src="images/snoopypin_01.png">
+                        <h2 id="three">PEANUTS THEN AND NOW - SNOOPY PIN SET<br>Buy Now at Pintrill.com</h2>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+         <div class="backgroundimg">
+            <img src="images/background_peanuts.png">
+        </div>
+
+        <script type="text/javascript" src="js/vanilla-tilt.js"></script>
+        <script type="text/javascript" src="js/Modal.js"></script>
+
+        <!-- tilt.js -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+        <script type="text/javascript">
+            VanillaTilt.init(document.querySelectorAll(".box"), {
+                reverse: true,
+                max: 30,
+                speed: 1000,
+                perspective: 600,
+                scale: 1.0,
+                //                glare: true,
+                //                "max-glare": .25,
+                //                "glare-prerender": false,
+                gyroscope: true,
+                gyroscopeMinAngleX:-45,
+                gyroscopeMaxAngleX:-45,
+                gyroscopeMinAngleY:-45,
+                gyroscopeMaxAngleY:-45
+            });
+        </script>
+
+    </body>
+</html>
+

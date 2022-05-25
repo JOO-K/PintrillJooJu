@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Syne";
+    font-size: .6vw;
+}
+
+body{
+   
+    cursor: crosshair;
+    overflow: hidden;
+    margin: 0;
+}
+
+.backgroundimg{
+    position: absolute;
+    top:0px;
+    width: 100vw;
+    height: 100vh;
+     z-index: -1000;
+}
+
+.backgroundimg img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+ 
+}
+
+.pintrilllogo{
+    position: absolute;
+    width: 100vw;
+     top: 50px; 
+    text-align: center;
+}
+
+.pintrilllogo img{
+    height: 100px;
+    width: 300px;
+ 
+}
+
+.buytext{
+    position: absolute;
+    width: 100vw;
+    bottom: 50px;
+    text-align: center;
+}
+
+.buytext h3{
+    font-size: 20px;
+    color: black;
+}
+
+.buytext h3 a{
+    font-size: 20px;
+    color: black;
+}
+
+.windowcontainer{
+    width: 100vw;
+    height: 100vh;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    transform-style: preserve-3d;
+    cursor: pointer;
+    padding: 0px 10px 0px 10px; 
+}
+
+.container .box{
+    position: relative;
+    width: 25vw;
+    height: 25vw;
+    margin: 10px 0;
+    transform-style: preserve-3d;
+    padding: 0px;
+    
+}
+
+.container .box:hover{
+    z-index: 10;
+}
+
+.container .box .imgBx{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.static {
+  position:absolute;
+
+}
+
+/*
+.static:hover {
+  opacity:0;
+    z-index: 0;
+}
+*/
+
+/*
+.active:hover{
+    z-index: 10000000;
+}
+*/
+
+.container .box .contentBx{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    transform: translateZ(0px) scaleY(0) scaleX(0);
+    padding:  10px 10px;
+    transform-origin: center;
+    transition: 0.2s;
+    transform-style: preserve-3d;
+    z-index: 0;
+}
+
+.container .box .contentBx a{
+    text-decoration: none;
+}
+
+.container .box .contentBx a h2{
+    font-size: 13px;
+    line-height: 25px;
+text-decoration: none;
+    color: dodgerblue;
+}
+
+#one{
+   text-decoration: none;
+    color: dodgerblue;
+}
+
+#two{
+   text-decoration: none;
+    color: #2e2e2e;
+}
+
+#three{
+   text-decoration: none;
+    color: #e60000;
+}
+
+.container .box:hover .contentBx{
+    transform: translateZ(100px) scaleY(1) scaleX(1);
+    z-index: 10;
+    filter: drop-shadow(0px 0px 10px #000000);
+}
+
+.container .box .contentBx:hover .imgBx{
+    opacity:0;
+}
+
+
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: hidden;
+
+}
+
+/* Modal Content/Box */
+.modal-content {
+  
+  margin:  5% auto;
+  padding: 20px;
+  border-radius: 20px;
+  width: 50%; /* Could be more or less, depending on screen size */
+      
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
